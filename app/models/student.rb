@@ -1,3 +1,5 @@
 class Student < ActiveRecord::Base
 
-end 
+  def to_s
+    student.first + " " + student.last
+end
